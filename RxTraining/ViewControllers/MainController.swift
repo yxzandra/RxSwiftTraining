@@ -24,7 +24,9 @@ class MainViewController : UIViewController {
             UIAction(title: MenuObservables.keyFor(.multicasting), discoverabilityTitle: MenuObservables.keyForIdentifier(.multicasting), handler: menuClosure),
             UIAction(title: MenuObservables.keyFor(.publishSubject), discoverabilityTitle: MenuObservables.keyForIdentifier(.publishSubject), handler: menuClosure),
             UIAction(title: MenuObservables.keyFor(.behaviorSubject), discoverabilityTitle: MenuObservables.keyForIdentifier(.behaviorSubject), handler: menuClosure),
-            UIAction(title: MenuObservables.keyFor(.replaySubject), discoverabilityTitle: MenuObservables.keyForIdentifier(.replaySubject), handler: menuClosure)
+            UIAction(title: MenuObservables.keyFor(.replaySubject), discoverabilityTitle: MenuObservables.keyForIdentifier(.replaySubject), handler: menuClosure),
+            UIAction(title: MenuObservables.keyFor(.publishRelay), discoverabilityTitle: MenuObservables.keyForIdentifier(.publishRelay), handler: menuClosure),
+            UIAction(title: MenuObservables.keyFor(.behaviorRelay), discoverabilityTitle: MenuObservables.keyForIdentifier(.behaviorRelay), handler: menuClosure)
         ])
         pullDownButton.showsMenuAsPrimaryAction = true
         pullDownButton.changesSelectionAsPrimaryAction = true

@@ -15,6 +15,8 @@
 		65DFCF2E28F1BCB400418125 /* PublishSubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFCF2D28F1BCB400418125 /* PublishSubjectController.swift */; };
 		65DFCF3028F1BFA700418125 /* BehaviorSubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFCF2F28F1BFA700418125 /* BehaviorSubjectController.swift */; };
 		65DFCF3228F1C16700418125 /* ReplaySubjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DFCF3128F1C16700418125 /* ReplaySubjectController.swift */; };
+		65EDC35129242D9300F25B66 /* PublishRelayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDC35029242D9300F25B66 /* PublishRelayController.swift */; };
+		65EDC354292430FE00F25B66 /* BehaviorRelayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDC353292430FE00F25B66 /* BehaviorRelayController.swift */; };
 		65F353E728E63838002C236B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F353E628E63838002C236B /* AppDelegate.swift */; };
 		65F353E928E63838002C236B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F353E828E63838002C236B /* SceneDelegate.swift */; };
 		65F353EB28E63838002C236B /* BasicObservableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F353EA28E63838002C236B /* BasicObservableController.swift */; };
@@ -24,7 +26,7 @@
 		65F353FE28E6383D002C236B /* RxTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F353FD28E6383C002C236B /* RxTrainingTests.swift */; };
 		65F3540828E6383D002C236B /* RxTrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3540728E6383D002C236B /* RxTrainingUITests.swift */; };
 		65F3540A28E6383D002C236B /* RxTrainingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3540928E6383D002C236B /* RxTrainingUITestsLaunchTests.swift */; };
-		EB1F73A414E8B6232C911F0F /* Pods_RxTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388F7788C6C619AD5C853187 /* Pods_RxTraining.framework */; };
+		69566D82F7CE3443213A1866 /* Pods_RxTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DB2DF6407A973B02083979 /* Pods_RxTraining.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1130A0668360BC047FEC8F86 /* Pods-RxTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTraining.debug.xcconfig"; path = "Target Support Files/Pods-RxTraining/Pods-RxTraining.debug.xcconfig"; sourceTree = "<group>"; };
-		388F7788C6C619AD5C853187 /* Pods_RxTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DB2DF6407A973B02083979 /* Pods_RxTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		651EC67F28EF82D20043008C /* ColdObservableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdObservableController.swift; sourceTree = "<group>"; };
 		65DFCF2228F1A24500418125 /* HotObservableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotObservableController.swift; sourceTree = "<group>"; };
 		65DFCF2528F1A79F00418125 /* MulticastingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticastingController.swift; sourceTree = "<group>"; };
@@ -55,6 +56,8 @@
 		65DFCF2D28F1BCB400418125 /* PublishSubjectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishSubjectController.swift; sourceTree = "<group>"; };
 		65DFCF2F28F1BFA700418125 /* BehaviorSubjectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorSubjectController.swift; sourceTree = "<group>"; };
 		65DFCF3128F1C16700418125 /* ReplaySubjectController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaySubjectController.swift; sourceTree = "<group>"; };
+		65EDC35029242D9300F25B66 /* PublishRelayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishRelayController.swift; sourceTree = "<group>"; };
+		65EDC353292430FE00F25B66 /* BehaviorRelayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorRelayController.swift; sourceTree = "<group>"; };
 		65F353E328E63838002C236B /* RxTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F353E628E63838002C236B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65F353E828E63838002C236B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +71,8 @@
 		65F3540328E6383D002C236B /* RxTrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxTrainingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F3540728E6383D002C236B /* RxTrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTrainingUITests.swift; sourceTree = "<group>"; };
 		65F3540928E6383D002C236B /* RxTrainingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTrainingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DEFF1EDA1897AF413B6B7E93 /* Pods-RxTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTraining.release.xcconfig"; path = "Target Support Files/Pods-RxTraining/Pods-RxTraining.release.xcconfig"; sourceTree = "<group>"; };
+		ABFE17349B6E3ABA143C6153 /* Pods-RxTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTraining.debug.xcconfig"; path = "Target Support Files/Pods-RxTraining/Pods-RxTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB340444DECE752D35D6B1C /* Pods-RxTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTraining.release.xcconfig"; path = "Target Support Files/Pods-RxTraining/Pods-RxTraining.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB1F73A414E8B6232C911F0F /* Pods_RxTraining.framework in Frameworks */,
+				69566D82F7CE3443213A1866 /* Pods_RxTraining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,10 +101,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5679C3404D21F92F6FD6A211 /* Frameworks */ = {
+		2CE7F7A59113B3C7615666E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				388F7788C6C619AD5C853187 /* Pods_RxTraining.framework */,
+				38DB2DF6407A973B02083979 /* Pods_RxTraining.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -126,16 +130,42 @@
 		65DFCF2A28F1AEE700418125 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				65F353EA28E63838002C236B /* BasicObservableController.swift */,
-				65DFCF2F28F1BFA700418125 /* BehaviorSubjectController.swift */,
-				651EC67F28EF82D20043008C /* ColdObservableController.swift */,
-				65DFCF2228F1A24500418125 /* HotObservableController.swift */,
+				65EDC35229242F7C00F25B66 /* Observables */,
+				65EDC34F29242D4F00F25B66 /* Relays */,
+				65EDC34E29242D2300F25B66 /* Subjects */,
 				65DFCF2728F1AB1000418125 /* MainController.swift */,
-				65DFCF2528F1A79F00418125 /* MulticastingController.swift */,
-				65DFCF2D28F1BCB400418125 /* PublishSubjectController.swift */,
-				65DFCF3128F1C16700418125 /* ReplaySubjectController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		65EDC34E29242D2300F25B66 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				65DFCF2D28F1BCB400418125 /* PublishSubjectController.swift */,
+				65DFCF2F28F1BFA700418125 /* BehaviorSubjectController.swift */,
+				65DFCF3128F1C16700418125 /* ReplaySubjectController.swift */,
+			);
+			path = Subjects;
+			sourceTree = "<group>";
+		};
+		65EDC34F29242D4F00F25B66 /* Relays */ = {
+			isa = PBXGroup;
+			children = (
+				65EDC35029242D9300F25B66 /* PublishRelayController.swift */,
+				65EDC353292430FE00F25B66 /* BehaviorRelayController.swift */,
+			);
+			path = Relays;
+			sourceTree = "<group>";
+		};
+		65EDC35229242F7C00F25B66 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				65F353EA28E63838002C236B /* BasicObservableController.swift */,
+				651EC67F28EF82D20043008C /* ColdObservableController.swift */,
+				65DFCF2228F1A24500418125 /* HotObservableController.swift */,
+				65DFCF2528F1A79F00418125 /* MulticastingController.swift */,
+			);
+			path = Observables;
 			sourceTree = "<group>";
 		};
 		65F353DA28E63838002C236B = {
@@ -146,7 +176,7 @@
 				65F3540628E6383D002C236B /* RxTrainingUITests */,
 				65F353E428E63838002C236B /* Products */,
 				FE97998DDF6A2664554E3026 /* Pods */,
-				5679C3404D21F92F6FD6A211 /* Frameworks */,
+				2CE7F7A59113B3C7615666E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,8 +223,8 @@
 		FE97998DDF6A2664554E3026 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1130A0668360BC047FEC8F86 /* Pods-RxTraining.debug.xcconfig */,
-				DEFF1EDA1897AF413B6B7E93 /* Pods-RxTraining.release.xcconfig */,
+				ABFE17349B6E3ABA143C6153 /* Pods-RxTraining.debug.xcconfig */,
+				FFB340444DECE752D35D6B1C /* Pods-RxTraining.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -206,11 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65F3540D28E6383D002C236B /* Build configuration list for PBXNativeTarget "RxTraining" */;
 			buildPhases = (
-				62F86C9EA71040503CB097CA /* [CP] Check Pods Manifest.lock */,
+				752D8A876AFE9D16F024EC6D /* [CP] Check Pods Manifest.lock */,
 				65F353DF28E63838002C236B /* Sources */,
 				65F353E028E63838002C236B /* Frameworks */,
 				65F353E128E63838002C236B /* Resources */,
-				2434AD36D19736134A0A009B /* [CP] Embed Pods Frameworks */,
+				5884537A1756CA75D883863F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -328,7 +358,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2434AD36D19736134A0A009B /* [CP] Embed Pods Frameworks */ = {
+		5884537A1756CA75D883863F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,7 +375,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxTraining/Pods-RxTraining-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		62F86C9EA71040503CB097CA /* [CP] Check Pods Manifest.lock */ = {
+		752D8A876AFE9D16F024EC6D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,6 +407,7 @@
 				651EC68028EF82D30043008C /* ColdObservableController.swift in Sources */,
 				65DFCF2E28F1BCB400418125 /* PublishSubjectController.swift in Sources */,
 				65DFCF3228F1C16700418125 /* ReplaySubjectController.swift in Sources */,
+				65EDC354292430FE00F25B66 /* BehaviorRelayController.swift in Sources */,
 				65DFCF3028F1BFA700418125 /* BehaviorSubjectController.swift in Sources */,
 				65DFCF2828F1AB1000418125 /* MainController.swift in Sources */,
 				65DFCF2628F1A79F00418125 /* MulticastingController.swift in Sources */,
@@ -385,6 +416,7 @@
 				65DFCF2C28F1AF0500418125 /* MenuObservables.swift in Sources */,
 				65F353E728E63838002C236B /* AppDelegate.swift in Sources */,
 				65F353E928E63838002C236B /* SceneDelegate.swift in Sources */,
+				65EDC35129242D9300F25B66 /* PublishRelayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,7 +590,7 @@
 		};
 		65F3540E28E6383D002C236B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1130A0668360BC047FEC8F86 /* Pods-RxTraining.debug.xcconfig */;
+			baseConfigurationReference = ABFE17349B6E3ABA143C6153 /* Pods-RxTraining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -587,7 +619,7 @@
 		};
 		65F3540F28E6383D002C236B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEFF1EDA1897AF413B6B7E93 /* Pods-RxTraining.release.xcconfig */;
+			baseConfigurationReference = FFB340444DECE752D35D6B1C /* Pods-RxTraining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -174,6 +174,36 @@
             </objects>
             <point key="canvasLocation" x="606" y="206"/>
         </scene>
+        <!--Publish Relay Controller-->
+        <scene sceneID="jm6-QL-m6Z">
+            <objects>
+                <viewController storyboardIdentifier="PublishRelayController" id="KVA-dt-vnV" customClass="PublishRelayController" customModule="RxTraining" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tgI-pK-Zz0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7xb-92-cxC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ENS-6L-iw1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-959" y="907"/>
+        </scene>
+        <!--Behavior Relay Controller-->
+        <scene sceneID="BT5-Bu-Lhs">
+            <objects>
+                <viewController storyboardIdentifier="BehaviorRelayController" id="9gQ-2K-6kE" customClass="BehaviorRelayController" customModule="RxTraining" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0sA-qb-rti">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5Zo-OB-X1x"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZzI-Br-eH0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-188" y="907"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

@@ -12,9 +12,13 @@ enum MenuObservables: Int {
     case hot
     case cold
     case multicasting
+
     case publishSubject
     case behaviorSubject
     case replaySubject
+
+    case publishRelay
+    case behaviorRelay
     
     static func keyFor(_ value: MenuObservables) -> String {
         switch value {
@@ -25,6 +29,8 @@ enum MenuObservables: Int {
         case .publishSubject: return "Publish Subject"
         case .behaviorSubject: return "Behavior Subject"
         case .replaySubject: return "Replay Subject"
+        case .publishRelay: return "Publish Relay"
+        case .behaviorRelay: return "Behavior Relay"
         }
     }
     
@@ -37,6 +43,8 @@ enum MenuObservables: Int {
         case .publishSubject: return "PublishSubjectController"
         case .behaviorSubject: return "BehaviorSubjectController"
         case .replaySubject: return "ReplaySubjectController"
+        case .publishRelay: return "PublishRelayController"
+        case .behaviorRelay: return "BehaviorRelayController"
         }
     }
 }
